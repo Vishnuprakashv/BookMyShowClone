@@ -1,0 +1,374 @@
+
+*{
+    margin:0px;
+    padding: 0%;
+    font-family: Roboto,sans-serif;
+}
+.navbar{
+    display: flex;
+    height: 65px;
+    background-color:#1e1414;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 40px;
+}
+.logo>img{
+    height: 60px;
+    width:100px;
+    margin:0px 40px;
+}
+.search>input{
+    height: 30px;
+    width:350px;
+    border-radius: 5px;
+    transform: translateX(-270px);
+}
+.search img{
+    height:15px;
+    width:15px;
+    position: relative;
+    z-index: 1;
+    right:240px;
+    top:5px;
+}
+.search input::placeholder{
+    transform: translate(35px);
+}
+.option{
+    background-color: #1e1414;
+}
+#option1{
+    border:none;
+    text-align: center;
+    background-color: #1e1414;
+    color: white;
+}
+#button1{
+    height: 35px;
+    width: 65px;
+    color: #fff;
+    background-color:#000 ;
+    border-radius: 10px;
+}
+#button1:hover{
+    transition: 1s ;
+    background-color: rgb(109, 153, 153);
+}
+
+.navlinks{
+    display: flex;
+    background-color: #000;
+    height:30px;
+    justify-content: space-between;
+    align-items: center;
+    color: whitesmoke; 
+}
+.navlink1{
+    display: flex;
+    margin: 0px 40px;
+    
+    align-items: center;
+
+
+}
+.navlink1>a{
+    text-decoration: none;
+    margin: 0px 4px;
+    color:#fff;
+    
+}
+.navlink2{
+    display: flex;
+    margin: 0px 40px;
+    
+}
+.navlink2>a{
+    text-decoration: none;
+    margin:0px 4px;
+    color:#fff
+}
+#logo2{
+    height: 30px;
+    width: 260px;
+    margin: 0px 20px;
+}
+
+.banner>img{
+    height:95px;
+    width: 1060px;
+    margin: 0px 95px;
+    margin-top: 30px;
+    
+    
+}
+.movierecom{
+    margin:50px 0px;
+}
+.movieimg{
+    display: flex;
+    justify-content: space-evenly;
+    margin:10px 0px;
+    
+
+}
+.section{
+    height:250px;
+    width:220px;
+}
+.section>img{
+    height:340px;
+    width:220px;
+}
+.slideimg{
+    background-color: #ccc;
+}
+.slideimg img{
+    margin: 5px;
+    border-radius: 10px;
+}
+#content2{
+    height:130px;
+    width:1100px;
+    margin-top: 200px;
+    transform:translate(110px)
+}
+#content2>img{
+    height:95px;
+    width:1040px;
+} 
+/*The Collection section*/ 
+.collection{
+    margin: 0px;
+    height: 330px;
+}
+.collection>h3{
+    width:800px;
+    margin-left: 45px;
+    font-size: 40px;
+}
+.collectionimg{
+    display:flex;
+    justify-content: space-evenly;
+    background-color: rgb(43,49,72);
+}
+.collectionimg>div>a>img{
+    height: 220px;
+    width: 200px;
+    border-radius: 10px;
+}
+/*The Premiere section*/
+.premiere{
+    background-color: rgb(43,49,72);
+    color:#ccc;
+    height: 600px;
+}
+.premiere>div>a>img{
+width: 800px;
+margin-left: 30px;
+height: 90px;
+}
+.premieretitle{
+    margin-top: 45px;
+    width: 800px;
+    margin-left: 45px;
+}
+.premiereimg>div>a>img{
+    height: 270px;
+    width: 200px;
+    border-radius: 10px;
+}
+
+.premiereimg>div{
+    width: 200px;
+}
+.premiereimg{
+    
+    display: flex;
+    justify-content: space-evenly;
+    transform: translateY(20px);
+}
+/*The Online Stream  section*/
+.onlinestream{
+    height: 800;
+}
+.onlinestream>div>h3{
+    width:800px;
+    font-size: 35px;
+    margin-left: 40px;
+    margin-top: 50px;  
+}
+.onlinestreamimg{
+    display: flex;
+    justify-content: space-evenly;
+    background-color:rgb(43,49,72);
+    color:white;
+    height:400px;
+    align-items: center;
+}
+.onlinestreamimg>div{
+    width: 200px;
+    height:320px;
+}
+.onlinestreamimg>div>a>img{
+    width: 200px;
+    height: 250px;
+    border-radius: 10px;
+}
+/*The Outdoor section*/
+.outdoor{
+    margin-top: 50px;
+    height: 470px;
+    align-items: center;
+}
+.outdoor-innerdiv{
+    display: flex;
+    align-items: center;
+}
+.outdoor-innerdiv h3{
+    width: 320px;
+    margin-left: 40px;
+    font-size: 40px;
+}
+.outdoor-div-img{
+    height: 30px;
+    width: 55px;
+    background: crimson;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.outdoor-div-img img{
+    height: 15px;
+    width: 40px;
+}
+.outdoorimg{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(43,49,72);
+}
+.outdoorimg>div{
+    height: 390px;
+    width: 200px;
+    color: white;
+}
+.outdoorimg>div>a>img{
+    height: 270px;
+    width: 200px;
+    margin-top: 20px;
+}
+/*The Laughter section*/
+.laughter{
+    height: 500px;
+    align-items: center;
+}
+.laughter-inner-1{
+    display: flex;
+    align-items: center;
+}
+.laughter-inner-1 h3{
+    width: 400px;
+    margin-left: 40px;
+    font-size: 40px;
+}
+.laughter-inner-2{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(43,49,72);
+}
+.laughter-inner-2>div{
+    height: 420px;
+    width: 200px;
+    color: white;
+}
+.laughter-inner-2>div>a>img{
+    height: 270px;
+    width: 200px;
+    margin-top: 20px;
+}
+/*The Latest Play section*/
+.latest-play{
+    height: 500px;
+    align-items: center;
+}
+.latest-play-inner-1{
+    display: flex;
+    align-items: center;
+}
+.latest-play-inner-1 h3{
+    width: 400px;
+    margin-left: 40px;
+    font-size: 40px;
+}
+.latest-play-inner-2{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(43,49,72);
+}
+.latest-play-inner-2>div{
+    height: 370px;
+    width: 200px;
+    color: white;
+}
+.latest-play-inner-2>div>a>img{
+    height: 270px;
+    width: 200px;
+    margin-top: 20px;
+}
+/*The Sports section*/
+.sports{
+    height: 500px;
+    align-items: center;
+}
+.sports-inner-1{
+    display: flex;
+    align-items: center;
+}
+.sports-inner-1 h3{
+    width: 400px;
+    margin-left: 40px;
+    font-size: 40px;
+}
+.sports-inner-2{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(43,49,72);
+}
+.sports-inner-2>div{
+    height: 410px;
+    width: 200px;
+    color: white;
+}
+.sports-inner-2>div>a>img{
+    height: 270px;
+    width: 200px;
+    margin-top: 20px;
+}
+/*The explore fun section*/
+.explore-fun{
+    height: 500px;
+    align-items: center;
+}
+.explore-fun-inner-1{
+    display: flex;
+    align-items: center;
+}
+.explore-fun-inner-1 h3{
+    width: 400px;
+    margin-left: 40px;
+    font-size: 40px;
+}
+.explore-fun-inner-2{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(43,49,72);
+}
+.explore-fun-inner-2>div{
+    height: 410px;
+    width: 200px;
+    color: white;
+}
+.explore-fun-inner-2>div>a>img{
+    height: 270px;
+    width: 200px;
+    margin-top: 20px;
+}
